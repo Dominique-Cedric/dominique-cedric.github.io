@@ -319,6 +319,7 @@ header button {
   .hero h1 {
     font-size: 3.5rem;
     max-width: 70%;
+    text-align: ;
   }
 
   .articles-container {
@@ -334,3 +335,4 @@ header button {
     text-align: center;
     font-size: 9px;
   }
+
