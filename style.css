@@ -59,6 +59,13 @@
    height: auto;
  }
 
+ /* img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+} */
+
  input,
  button,
  textarea,
@@ -94,7 +101,7 @@
 
 /* header */
  header .mobile-header {
-   padding: 16px;
+   padding: 20px;
  }
 
  header button {
@@ -103,7 +110,7 @@
  
  /* .logo */
  .logo {
-   height: 50px;
+   height: 10px;
  }
 
   /* .mobile-nav */
@@ -323,3 +330,7 @@ header button {
   }
 
 
+  p.copyright {
+    text-align: center;
+    font-size: 9px;
+  }
