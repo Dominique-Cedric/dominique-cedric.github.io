@@ -1,24 +1,27 @@
 #  your_name_here - Portfolio Task
 ​
-[My portfolio site](link_to_your_site)
+[My portfolio site https://dominique-cedric.github.io/] 
+ ![https://dominique-cedric.github.io/]
+
 ​
 ## Project Requirements
 
 ### Content
  Add a short paragraph describing the features below. What aesthetic and technical choices did you make? 
-- [ 1] At least one profile picture
-- [ 1] Biography (at least 100 words)
-- [ 1] Functional Contact Form
-- [ 1] "Projects" section
-- [ 1] Links to external sites, e.g. GitHub and LinkedIn.
+
+- [Yes] At least one profile picture
+- [Yes] Biography (at least 100 words)
+- [Yes] Functional Contact Form
+- [Yes] "Projects" section
+- [Yes] Links to external sites, e.g. GitHub and LinkedIn.
 ​
 ### Technical
  Add a short paragraph describing the features below. What strategies or design decisions did you work from? 
-- [ ] At least 2 web pages.
-- [ ] Version controlled with Git
-- [ ] Deployed on GitHub pages.
-- [ ] Implements responsive design principles.
-- [ ] Uses semantic HTML.
+- [Yes] At least 2 web pages.
+- [Yes] Version controlled with Git
+- [Yes] Deployed on GitHub pages.
+- [Yes] Implements responsive design principles.
+- [Yes] Uses semantic HTML.
 
 ### Bonus (optional)
  Add a short paragraph describing the features below, if you included any. 
@@ -33,4 +36,11 @@
 > You can do this by saving the images in a folder in your repo, and including them in your readme document with the following Markdown code: 
 
 ####  image_title_goes_here 
-![Put a description of your image here](./relative_path_to_file)
+![Home mobile view](./images/Home_Mobile_view.png)
+![Home webpage view](./images/Home_webpage_view.png)
+![My portfolio webpage view](./images/MyPortfolio_mobile_view.png)
+![My portfolio mobile view](./images/MyPortfolio_webpage_view.png)
+![Contact mobile view](./images/Contact_Mobile_view.png)
+![contact webpage view](./images/Contact_webpage_view.png)
+
+

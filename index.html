@@ -1,34 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Header section -->
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
     <title>Dominique Cedric</title>
-    <link rel="Stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
     <header>
         <div class="mobile-header">
-
             <button type="button" class="hamburger-button">
                 <img class="hamburger-icon" src="./images/hamburger.svg"
-                    alt="Three horizontal lines, positioned one above the other." />
+                alt="Three horizontal lines, positioned one above the other." />
             </button>
         </div>
         <nav class="desktop-nav" aria-label="Primary">
             <ul>
                 <li>
                     <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="about.html">About me</a>
                 </li>
                 <li>
                     <a href="portfolio.html">My Portfolio</a>
@@ -41,10 +35,10 @@
         <nav class="mobile-nav display-none" aria-label="Primary">
             <ul>
                 <li>
-                    <a href="">About Me</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="">Current Training</a>
+                    <a href="">My Portfolio</a>
                 </li>
                 <li>
                     <a href="">Contact</a>
@@ -53,50 +47,66 @@
         </nav>
     </header>
 
-
-    <!-- Hero Section -->
-
-
-    <!-- MAIN -->
-
     <main>
-        <section class="hero">
-            <section id="main-1">
-                <h1>Hello, my name is Dom!</h1>
-                <img src="images/Profile Pic.png" alt="photo of me smiling" />
-                 <section class="description">
-
+        <section class="articles-container">
+            <section class="hero">
+                <article>            
+                    <div class="w3-container">
+                    <img src="images/Profile Pic.png" class="w3-circle" alt="Photo of Dominique smiling" style="width:200%">
+                    <br><br>
+                    <h2>Hello, my name is Dom!</h2>
                     <p>GRADUATE DATA SCIENTIST</p>
-                    <!-- <main> -->
-                </section>
+                    </div>
+                <div>
+                </div>
+                </article>
             </section>
-            <section>
-                <br><br>
-                <a href="portfolio.html" class="btn-primary">Find out more </a>
-                <br><br>
-                <section>
-                    <nav class="desktop-nav" aria-label="Primary">
-                </section>
-            </section>
-        </section>
 
+            <section class="articles-container">
+            <section class="hero">
+                <article>
+                <h1>About Me</h1>
+                <p class="text-justify">Hey there! My name is Dominique, but you can call me Dom for short. I am a 2nd year Graduate employed at Rio Tinto.</p>
+                <p>I have some prior experience and exposure to a few programming languages while at university, where I got to learn and do some super cool things like:</p>
+                <br><br>
+                <ul>
+                    <li>* Design and build a working and responsive webpage using HTML.</li>
+                    <li>* Build a program for a cafe menu using Python (Pycharm).</li>
+                    <li>* Create Databases using MySQL.</li>
+                    <li>* Build Data Models using Jupyter and Weka.</li>
+                    <li>* Build data visualization dashboards using Power BI.</li>
+                </ul>
+            
+                <br><br>
+                    <p> However, this wasn't enough for me to be a confident programmer at present. Given that my interest in coding
+                    still lingered in the back of my mind, I took the initiative and applied for the She Codes Plus Programming
+                    course.  <br>After a few nail biting weeks later, I was given the 'green light' and was successful in my
+                    application and was thankfully given a second chance and opportunity to get back into it and refresh my
+                    learnings.
+                    </p>
+                    <br>
+                    <p> Want to see more of my coding journey? Clink on the following link to see what I've been working on.</p>
+                    <br>
+                    <a href="portfolio.html" class="btn-primary">Find out more</a>
+                </article>
+        </section>
     </main>
 
-    <!-- Footer Section -->
-    <footer>
-        <a href="https://www.instagram.com/shecodesaus/" title="LinkedIn Page">
-            <img class="socials-icon" src="./images/Linkedin.png" alt="LinkedIn Logo" />
-        </a>
-        <a href="https://shecodesaus.slack.com/team/U0739KCMGP5">
-            <img class="socials-icon" src="./images/slack.svg"
-                alt="The Slack logo: a colourful deconstructed hashtag" />
-        </a>
-        <a href="https://github.com/Dominique-Cedric">
-            <img class="socials-icon" src="./images/github.svg"
-                alt="The Github logo: a black circle with the silhouette of a white cat, with one tentacle arm" />
-        </a>
-    </footer>
-    <p class="copyright"> Copyright - Dominque Cedric 2024</p>
+<footer>
+        <div class="social-links">
+            <a href="https://www.instagram.com/shecodesaus/" title="LinkedIn Page">
+                <img class="socials-icon" src="./images/Linkedin.png" alt="LinkedIn Logo" />
+            </a>
+            <a href="https://shecodesaus.slack.com/team/U0739KCMGP5" title="Slack Profile">
+                <img class="socials-icon" src="./images/slack.svg" alt="Slack Logo" />
+            </a>
+            <a href="https://github.com/Dominique-Cedric" title="GitHub Profile">
+                <img class="socials-icon" src="./images/github.svg" alt="GitHub Logo" />
+            </a>
+        </div>
+
+</footer>
+<p class="copyright">Copyright - Dominique Cedric 2024</p>
 </body>
 
 </html>

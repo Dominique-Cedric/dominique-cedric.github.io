@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Rubik:ital,wght@0,400;0,700;1,400&display=swap");
 
 :root {
-    --brand: #8246af;
+    --brand: #b25bf5;
     --action: #ffa300;
     --white: #ffffff;
     --base-light: #cdb5df;
@@ -334,5 +334,11 @@ header button {
   p.copyright {
     text-align: center;
     font-size: 9px;
+  }
+
+  p.text-justify {
+    div.a {
+      text-align: justify;
+    }
   }
 
