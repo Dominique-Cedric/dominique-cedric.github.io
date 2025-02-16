@@ -1,12 +1,13 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
     <!-- Header section -->
  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-    <title>Dominique Cedric</title>
-    <link rel="Stylesheet" href="style.css">
+    <title>My Portfolio - Dominique Cedric</title>
+    <link rel="stylesheet" href="style.css">
     
     
     <title>Landing Page</title>
@@ -17,33 +18,21 @@
             <div class="mobile-header">
                 <button type="button" class="hamburger-button">
                     <img class="hamburger-icon" src="./images/hamburger.svg"
-                    alt="Three horizontal lines, positioned one above the other." />
+                    alt="Menu button">
                 </button>
             </div>
             <nav class="desktop-nav" aria-label="Primary">
                 <ul>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="portfolio.html">My Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">My Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
             <nav class="mobile-nav display-none" aria-label="Primary">
                 <ul>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="">My Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="">Contact</a>
-                    </li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">My Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -54,73 +43,107 @@
 
     </section>
     <main>
-            <section class="hero">
-                <h1>My Portfolio & Assessments</h1>
-                <p></p> Here's a snapshot of my coding journey so far. More aseessments will be added as I progress through the course<p>
-            </section>    
+        <section class="hero">
+            <h1>My Portfolio & Assessments</h1>
+            <p class="journey-subtitle">Discover My Coding Journey: Highlighting My Projects Throughout The She {Codes} Plus Program </p>
 
-        <!-- Article Section 2-->
-        <section class="articles-container">
-            <article>
-                <section>
-                    <h2>Web Design Using HTML & CSS</h2>
-                    <!-- <img class="icon" src="./images/First webpage.png"
-                        alt="image of a webpage" > -->
-                    <br>
-                    <a href="https://github.com/SheCodesAus/PlusLessonContent/tree/main/1_HTML_CSS" class="btn-primary">My first website</a>
-                     <section>
-                        <nav class="desktop-nav" aria-label="Primary">
-            </section>
-            </article>
-        <!-- </section> -->
-        <section>
+        </section>   
+        
 
-        <!-- Article Section 2-->
-        <section class="articles-container">
-            <article>
-                <h2>Programming Languages Currently Learning</h2>
-                <br>  
-                <img class="icon" src="./images/html logo.png"  alt="HTLM Logo" style="width:50px;height:50px">
-                <img class="icon" src="./images/React Js.png" alt="React JavaScript Logo" style="width:50px;height:50px">
-                <img class="icon" src="./images/python.png" alt="Python Logo" style="width:50px;height:50px">
-                <br><br>
-                <img class="icon" src="./images/django.png" alt="Django Logo" style="width:50px;height:50px">
-                <img class="icon" src="./images/cloud.png" alt="Cloud Logo" style="width:50px;height:50px">
-                <img class="icon" src="./images/git.png" alt="Git Logo" style="width:50px;height:50px">
+        
+
+
+            <article class="portfolio-item">
+                <h2>Projects Completed - Most Proud Of</h2>
+                <ul class="project-list">
+                    <li>
+                        <div class="project-content">
+                            <h3>Web Design</h3>
+                            <p>Using HTML/CSS</p>
+                            <a href="#" class="btn-project">My First Webpage </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="project-content">
+                            <h3>Crowdfunding App</h3>
+                            <a href="#" class="btn-project">Rising Athletes</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="project-content">
+                            <h3>Final Group Project</h3>
+
+                            <a href="https://presentpal.netlify.app/" class="btn-project">PresentPal</a>
+                        </div>
+                    </li>
+                </ul>
             </article>
-        <!-- </section> -->
-        <section>
-        <!-- Article Section 3-->
-        <section class="articles-container">
-            <article>
-                <!-- <img class="icon" src="/images/SheCodes.png"
-                    alt="She Codes Plus Logo" /> -->
-                <h2>Want to learn how to code like a pro? </h2>
-                <h2>Discover She {Codes} Plus </h2>
-                <br>               
-                <p>She {Codes} Plus is a six month program that is designed to supercharge the tech career of it’s participants – ideal for women looking to enter, or advance in, the tech industry.
-                </p>
-                <a href="https://shecodes.com.au/program/plus/" class="btn-primary" >Learn More</a> 
-                <br><br><br>
+
+            <article class="portfolio-item">
+                <h2>Other Projects Completed</h2>
+                <ul class="project-list">
+                    <li>
+                        <div class="project-content">
+                            <h3>Weather App - Using Python</h3>
+
+                        </div>
+                    </li>
+                    <li>
+                        <div class="project-content">
+                            <h3>Lists - Using JavaScript</h3>
+                            <p class="project-tech">Counter </p>
+                            <p class="project-tech">Shopping list </p>
+                            <p class="project-tech">To Do List </p>
+                            
+                            <!-- <a href="#" class="btn-project">View Project</a> -->
+                        </div>
+                    </li>
+                </ul>
+            </article>
+
+            <article class="portfolio-item">
+                    <h2>Programming Languages Learnt</h2>
+                    <div class="tech-stack">
+                        <img class="icon" src="./images/html logo.png" alt="HTML Logo">
+                        <img class="icon" src="./images/react js.png" alt="React JavaScript Logo">
+                        <img class="icon" src="./images/python.png" alt="Python Logo">
+                        <img class="icon" src="./images/django.png" alt="Django Logo">
+                        <img class="icon" src="./images/cloud.png" alt="Cloud Logo">
+                        <img class="icon" src="./images/git.png" alt="Git Logo">
+                    </div>
+                </article>
+
+            <article class="portfolio-item">
+                <!-- <div class="learn-code-container">
+                    <div class="learn-code-header"> -->
+                        <section class="hero">
+                            <h1>Want to learn how to code like a pro?</h1>
+                            <h1>Discover She {Codes} Plus</h1>
+                            <p class="journey-subtitle">                             She {Codes} Plus is a six month program that is designed to supercharge 
+                                the tech career of its participants – ideal for women looking to enter, 
+                                or advance in, the tech industry.</p>
+                                <br>
+                                <a href="https://shecodes.com.au/program/plus/" class="btn-primary">Learn More →</a>
+                        </section>   
+                    </div>
+                </div>
             </article>
         </section>
     </main>
 
- <!-- Footer Section -->
- <footer>
-    <a href="https://www.instagram.com/shecodesaus/" title="LinkedIn Page">
-        <img class="socials-icon" src="./images/Linkedin.png"
-            alt="LinkedIn Logo" />
-    </a>
-    <a
-        href="https://shecodesaus.slack.com/team/U0739KCMGP5">
-        <img class="socials-icon" src="./images/slack.svg" alt="The Slack logo: a colourful deconstructed hashtag" />
-    </a>
-    <a href="https://github.com/Dominique-Cedric">
-        <img class="socials-icon" src="./images/github.svg"
-            alt="The Github logo: a black circle with the silhouette of a white cat, with one tentacle arm" />
-    </a>
-</footer>
-<p class="copyright"> Copyright - Dominque Cedric 2024</p>
+    <footer>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/dominique-c-698422167" title="LinkedIn Page">
+                <img class="socials-icon" src="./images/Linkedin.png" alt="LinkedIn Logo">
+            </a>
+            <a href="https://shecodesaus.slack.com/team/U0739KCMGP5" title="Slack Profile">
+                <img class="socials-icon" src="./images/slack.svg" alt="Slack Logo">
+            </a>
+            <a href="https://github.com/Dominique-Cedric" title="GitHub Profile">
+                <img class="socials-icon" src="./images/github.svg" alt="GitHub Logo">
+            </a>
+        </div>
+        <p class="copyright">Copyright - Dominique Cedric 2025</p>
+    </footer>
 </body>
 </html>
